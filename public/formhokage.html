@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This Application Form is for all those aspiring Konohagukare ninjas who like to apply for the recently vacant post of Hokage">
+    <title>Application Form for Hokage Post</title>
+</head>
+
+<body>
+    <h1>Hokage Application Form</h1>
+    <ol>
+        <li>
+            <div>
+                <form action="post"></form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name">
+            </div>
+        </li>
+        <li>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="Male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="Female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </div>
+        </li>
+        <li>
+            <div>
+                <label for="rank">Your Current Rank:</label>
+                <!--if name is same the only one optiom is selected-->
+                <!--id is created for label so that if click on name rather than the radio the option still gets selcted-->
+                <!--label mai for ke jagah pe id of input chahiye-->
+                <input type="radio" name="rank" id="genin">
+                <label for="genin">Genin</label>
+                <input type="radio" name="rank" id="chunin">
+                <label for="chunin">Chunin</label>
+                <input type="radio" name="rank" id="jonin">
+                <label for="jonin">Jonin</label>
+                <input type="radio" name="rank" id="s rank">
+                <label for=" s rank">S Rank</label>
+            </div>
+        </li>
+        <li>
+            <div>
+                <label for="style">Which Style do you have a Mastery in?:</label>
+                <input type="checkbox" id="style">
+                <label for="style">WIND</label>
+                <input type="checkbox" id="style">
+                <label for="style">WATER</label>
+                <input type="checkbox" id="style">
+                <label for="style">EARTH</label>
+                <input type="checkbox" id="style">
+                <label for="style">FIRE</label>
+                <input type="checkbox" id="style">
+                <label for="style">LIGHTNING</label>
+                <input type="checkbox" id="style">
+                <label for="style">WOOD</label>
+            </div>
+        </li>
+        <li>
+            <div>
+                <label for="explain"> Explain why should we consider you for the post?</label><br>
+                <textarea name="explain" id="explain" rows="10" cols="60">Write Your Essay</textarea>
+            </div>
+        </li>
+        <li>
+            <div>
+                <label for="spirit">Do you have the Will of Fire?</label>
+                <select name="spirit" id="spirit">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="notsure">Not Sure</option>
+                </select>
+               
+            </div>
+        </li>
+    </ol>
+</body>
+
+</html>
